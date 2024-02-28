@@ -57,8 +57,13 @@ conda install pydantic==2.6.2
 
 FYI this was probably overkill but I wanted to make sure I included as much as I could to get it running
 
+### Step 5: Enviorment Variables
 
-
+```bash
+conda env config vars set LANGCHAIN_TRACING_V2 = true
+conda env config vars set LANGCHAIN_API_KEY =your_langchain_api_key_here
+conda env config vars set OPENAI_API_KEY=your_openai_api_key_here
+```
 
 ## Credits
 
