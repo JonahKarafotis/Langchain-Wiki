@@ -1,10 +1,5 @@
-# ICE
-project that involves loading relevant data from Wikipedia, splitting the text into manageable chunks, storing these chunks in a vector store for efficient similarity search, and then using a language model to answer questions based on the context provided by the similarity search. 
 
-
-
-
-# README for Wikipedia Content-Based Question Answering System
+Wikipedia Content-Based Question Answering System
 
 ## Table of Contents
 
